@@ -1,0 +1,322 @@
+	@font-face {
+			font-family: "MyriadProRegular";
+			src: url("MyriadProRegular/MyriadProRegular.eot");
+			src: url("MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+			url("MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			url("MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	body{
+		font-family: MyriadProRegular;
+	}
+.container{
+	width: 1250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.hidden-menu, .hidden-menu-ticker{
+	display: none;
+}
+.logo{
+	font-size: 42px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 300px;
+	height: 90px;
+}
+.logo a{
+	text-decoration:none;
+	color: black;
+}
+.logo img{
+	width: 45px;
+	height: 45px;
+}
+.logo:before{
+	content: "";
+	width:44px;
+	height: 44px;
+	background: url(logo.png);
+	margin-right: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	width: 360px;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+.Menu a{
+	text-decoration: none;
+	margin: 10px;
+	color: #999999;	
+	font-size: 20px;
+}
+.Menu a:hover {
+	border-bottom: 3px solid #5094f2; 
+	}
+
+.banner{
+	height: 490px;
+	background: url(background.png);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.iphone{
+	width:50%;
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-left: 140px;
+}
+.banner-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	width:50%;
+	align-self: center;
+}
+.banner-title{
+	font-size: 42px;
+	color: white;
+}
+.banner-subtitle{
+	color:white;
+	font-size: 25px;
+	width:240px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.banner-button{
+		display: flex;
+		justify-content: space-around;
+		width: 170px;
+		height: 42px;
+		background: #5094f2;
+		color: white;
+		float: center;
+		font-size: 18px;
+		margin-left: 15px;
+		}	
+.section{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	height: 380px;
+	align-items: center;
+}		
+.three-icon{
+	width: 280px;
+	height: 260px;
+	display: flex;
+	flex-direction: column;
+
+}
+.section-img{
+	width: 190px;
+	height: 190px;
+	align-self: center;
+	}
+.section-title{
+	display: flex;
+	justify-content: center;
+	color: #5094f2;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.section-text{
+	text-align: center;
+	margin-top: 30px;
+	color: #999999;
+}
+.shoping{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-bottom: 65px;
+}
+.shoping-left{
+	color: #999999;
+	font-size: 40px;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.shoping-right{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+.shoping-title{
+	color: #999999;
+	font-size: 26px;
+	margin-bottom: 30px;
+	}
+.shoping-text{
+	width: 455px;
+	color: #999999;
+	font-size: 16px;
+	line-height: 30px;
+}
+.basket{width: 357px;}
+footer{
+	width:100%;
+	height: 95px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #999999;
+	border-top: 1px solid #999999;
+}
+
+@media screen and (max-width: 1024px) {
+	.container{
+		width: 800px;
+	}
+	.nav{
+		width: 979px;
+		justify-content:center;
+			}
+	.banner{
+		width: 960px;
+	}
+	.section{
+		justify-content: center;
+	}
+	.iphone{
+		margin-left: 40px;
+		width: 30%;
+	}
+}
+@media screen and (max-width : 700px) {
+	.container{
+		width: 680px;
+	}
+	.nav{
+		display: flex;
+		justify-content: flex-start;
+	}
+	.logo{
+		display: flex;
+		flex-direction: flex-start;
+		width: 200px;
+	}
+	.banner{
+		display: flex;
+		flex-direction: column;
+		height: 800px;
+		width: 700px;
+		background: url(background700.png);
+		background-repeat: no-repeat;
+	}
+	.iphone{
+		margin-left: 115px;
+	}
+	.banner-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:50%;
+	align-self: center;}
+	.banner-title{
+		text-align:center;
+		margin-right: 120px;
+	}
+	.banner-subtitle{
+		text-align: center;
+		}
+	.section{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 900px;
+		margin-top: 30px;
+		margin-right: 70px;
+	}
+	.three-icon{
+		height: 550px;
+	}
+	.shoping{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.shoping-left{
+		display: flex;
+		align-self: center;
+	}
+	.shoping-right{
+		display: flex;
+		align-self: center;
+	}
+	.shoping-title{
+		display: flex;
+		align-self: center;
+	}
+	.shoping-text{
+		display: flex;
+		align-self: center;
+		text-align: center;	
+	}
+}
+@media screen and (max-width: 480px){
+	.container{
+		width: 479px;
+	}
+	.logo{
+		display: none;
+	}
+
+	nav ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		}
+	.Menu a{
+		line-height: 40px;
+	}	
+	.banner{
+		width: 450px;
+	}
+	.iphone{
+		margin-left:50px;
+	}
+	.banner-title{
+		font-size: 30px;
+		width: 300px;
+		display: flex;
+		justify-content: center;
+		margin-left: -30px;
+	}
+	.banner-subtitle{
+		margin-left: -20px;
+	}
+	.banner-button{
+		border-radius: 10px;
+	}
+	.three-icon{
+		margin-left: 60px;
+	}
+	.shoping-left{
+		text-align: center;
+	}
+	.shoping-title{
+		text-align: center;
+	}
+	.shoping-text{
+		width: 400px;
+		text-align: center;
+	}
+} 
+

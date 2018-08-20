@@ -1,0 +1,29 @@
+html {
+    background: #efefef;
+}
+
+body {
+    background: white;
+    color: gray;
+    font-family: "Arial";
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px 30px 20px;
+}
+
+
+h2, h3, h4 {
+    color: black;
+}
+
+img {
+    
+    background: transparent;
+    border: 10px solid;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    max-width: 95%;
+}

@@ -1,0 +1,35 @@
+#social{
+    
+    width: 720px;
+    height: 60px;
+    border: 2px solid red;
+    padding: 10px;
+    box-shadow: 10px 10px 0px blue;
+    background: linear-gradient(to right, white, #03ed03);
+    float: left;    
+}
+.google
+{
+    width: 50px;
+    height: 50px;
+    background: url(sprite1.png);
+    background-position: 18% 22%;
+ }
+.fb
+{
+    width: 50px;
+    height: 50px;
+    background: url(sprite1.png);
+    background-position: 33% 68%;
+    position: relative;
+    left: 660px;
+    bottom: 200px;
+ }
+
+p{
+    font-size: 43px;
+    color: blue;
+    position: relative;
+    left: 60px;
+    top: -100px;
+}

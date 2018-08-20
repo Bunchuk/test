@@ -1,0 +1,29 @@
+#first_form{
+    width: 596px;
+    border: solid 2px #8787ff;
+    background-color: #f5faff;
+}
+h1{
+    font-family: Arial;
+    color: cadetblue;
+    text-align: center;
+}
+span{
+    color: red;
+  }
+form{
+    line-height: 10px;
+    padding: 15px;
+}
+p{
+    
+    font-size: 14px;
+    
+    font-family: Arial;
+    color: cadetblue;
+    font-weight: bold;
+    }
+button{
+    margin: 15px 15px;
+    padding: 2px;
+    }

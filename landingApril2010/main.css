@@ -1,0 +1,104 @@
+#full{
+    font-family: Arial;
+    width: 890px;
+    height: 450px;
+    border: 1px solid gray;
+    border-radius: 1%;
+    background: linear-gradient(to bottom, white, #ebebeb);
+}
+#left_block{
+   
+    padding: 25px;
+    font-family: Arial;
+    width: 400px;
+    float: left;
+}
+#link
+{
+   
+    line-height: 80px;
+    color: darkgray;
+    font-size: 12px;
+}
+img{padding-right: 5px;}
+#tabl{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 2%;
+    padding: 15px;
+    margin-top: 35px;
+    width: 400px;
+    height: 250px;
+    line-height: 80px;
+    float: right;
+    }
+
+.bmi{
+   
+   margin-top: 0px;
+    width: 160px;
+    height: 40px;
+    float: left;
+    background: url(spite_land.png) 0px 3px no-repeat;
+    
+}
+ .prime{
+    width: 160px;
+    height: 80px;
+    float: left;
+    background: url(spite_land.png) 0px -55px no-repeat;
+     
+      }
+
+.easy{
+   margin-top: 30px;
+    width: 160px;
+    height: 80px;
+    float: left;
+    background: url(spite_land.png) 0px -150px no-repeat;
+    line-height: 20px;
+    
+    }
+
+}
+    td{
+    height: 10px;
+    width: 205px;
+      
+   }
+.tab{
+    line-height: 20px;
+}
+#gray{color:beige;}
+.both_block{
+    margin-left: 20px;
+    background-color: #a3a3a3;
+    width: 380px;
+    height: 35px;
+    font-size: 13px;
+    color: white;
+    padding: 9px 1px 9px 6px;
+    text-align: left;
+    position: relative;
+}
+.both_block::after{
+    content: ''; 
+    position: absolute; 
+    right: -61px; bottom: 0px; 
+    border: 26px solid transparent; 
+    border-left: 35px solid #a3a3a3;
+}
+#but{
+    color: white;
+    font-size: 24px;
+    font-weight:bold;
+    height: 52px;
+    width: 380px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: -455px;
+    bottom: 55px;
+    background: linear-gradient(to bottom, #5ed43b, #379d17)
+}
+

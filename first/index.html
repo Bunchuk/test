@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta chatset="utf-8">
+    <title>Товары</title>
+</head>
+    <body>
+        <div id="wrapper"></div>
+        <div id="header"><img src="tvshop.jpg" alt="tvshop"></div>
+        <div id="nav">
+            <ol>
+                <li><a title="На главную" href="index.html">Главная</a></li>
+                <li><a title="Рюкзак" href="bobby.html">Рюкзак</a></li>
+                <li><a title="Перчатка" href="perch.html">Перчатка</a></li>
+                <li><a title="EMS" href="ems.html">Миостимулятор</a></li>
+            </ol>
+        </div>     
+        <div id="main">
+            <table border="1px solid black;">
+                <tr>
+                    <th id="main_title" colspan=3><h1>Главная</h1></th>
+                </tr>
+                <tr>
+                    <td class="card"><img src="bobby1.jpeg" alt="Bobby">
+                        <h2>Рюкзак Бобби</h2>
+                        <p>Рюкзак выполнен из высококачественного полиэстера, имеет светоотражательные полосы для дополнительной безопасности ночью. Раскрытие на 180° для удобного наполнения. Скрытые карманы для документов, проездных и мелочи на спинке и шлейках рюкзака. Встроенный USB шнур с выходом наружу возле шлейки.</p>
+                        <a href="bobby.html" title="Bobby">Перейти</a>
+                    </td>
+                    <td class="card"><img src="ems1.png" alt="ems">
+                    <h2>EMS-Trainer</h2>
+                    <p>Простые диеты не сделают ваше тело идеальным. Нужно не только убрать лишние кило, но и привести мышцы в тонус. Задействуйте миостимулятор EMS-Trainer – и вы решите несколько задач сразу. </p>
+                    <a href="ems.html" title="ems">Перейти</a>
+                    </td>
+                    <td class="card"><img src="perchatka1.jpg" alt="perchatka">
+                    <h2>Перчатки True Touch</h2>
+                    <p>Массажная перчатка для вычесывания шерсти Тру Тач (True Touch). Эта революционная перчатка, которая позволит вам без всяких усилий удалить старую шерсть и сделать нежнейший массаж вашему питомцу. Удаляя старую шерсть, вы способствуете росту новой здоровой шерсти. Перчатка снабжена нежнейшими щетинками, которые с легкостью удаляют старую шерсть. Перчатка не требует специального ухода, достаточно просто помыть ее под водой с мылом.</p>
+                        <a href="perch.html" title="True Touch">Перейти</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="forma" colspan="3">
+                    <img src="tvshop2.jpg">
+                    <form action="/zakaz" metod="post">
+                    <fieldset>
+                        <legend><b>Оформление заказа</b></legend>
+                        <input type="text" name="Name" placeholder="Введите Ваше имя" required><br/>
+                        <input type="tel" name="Tel" placeholder="(xxx)xxx-xx-xx" required patern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"><br/>
+                        <select name="Buy">
+                        <option value="Bobby">Рюкзак Bobby</option>
+                        <option value="ems">EMS-Trainer</option>
+                        <option value="perch">Перчатки True Touch</option>
+                        </select><br/>
+                        <input type="submit">
+                        </fieldset></form></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+    

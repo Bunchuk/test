@@ -1,0 +1,33 @@
+form{
+    line-height: 10px; 
+    color: #4b4b4b;
+    font-weight: bold;
+}
+#title{
+    text-align: center;
+    background-color: #4b4b4b;
+    width: 600px;
+    height: 60px;
+    padding: 10px;
+}
+h2{
+    color:white;
+    font-family: comic sans;
+}
+span{
+    color:red;
+}
+.fon{
+    width: 401px; 
+    height: 35px; 
+    background: url(fon.png) no-repeat;
+    font-size: 1em;
+    line-height: 46px; 
+}
+#knopki{
+    text-align: left;
+    background-color: #4b4b4b;
+    width: 600px;
+    height: 60px;
+    padding: 23px;
+    }

@@ -1,0 +1,18 @@
+#all{
+    width: 650px;
+    border: solid gray 1px;
+}
+#form{
+    font-family: Arial;
+    font-size: 14px;
+    color: gray;
+    line-height: 0.1;
+    margin-left: 40px;
+}
+span{
+    color:red;
+}
+h3{
+    color: gray;
+    margin-left: 3px;
+}

@@ -1,0 +1,44 @@
+body{
+	background: #141b23;
+	font-family: franklin gothic medium;
+}
+.container{
+	width: 1000px;
+	background: url(background.png) no-repeat;
+	background-position: top right;
+}
+section{
+	color: white;
+}
+header{
+	color: white;
+}
+nav, footer{
+	color: #9da6b5;
+}
+ul{
+	display: flex;
+	list-style-type: none;
+}
+li{
+	margin-left: 55px;
+	margin-top: 50px;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: #b1bbcb;
+}
+section{
+	width: 470px;
+	font-size: 16px;
+}
+article{
+	margin-top: 70px;
+	margin-left: 140px;
+}
+footer{
+	margin-top:200px;
+	margin-left: 55px;
+}

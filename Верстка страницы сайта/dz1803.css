@@ -1,0 +1,41 @@
+
+body{
+    background-color: gray;
+      
+}
+
+#content{
+    background-color: gainsboro;
+    width: 795px;
+    border: solid 2px green;
+}
+
+#menu{
+    float: left;
+    padding: 10px;
+    width: 80px;
+    height: 50px;
+    
+}
+ul{
+    margin: 10;
+    padding: 0;
+}  
+ul li {
+    margin: 20;
+    list-style: none;
+    text-decoration: none;
+}
+ul li:nth-child(1){
+    margin:10px;
+}
+ul li:nth-child(2){
+    margin:10px;
+}
+
+#text{
+    
+    margin-left: 100px;
+    width: 650px;
+    background-color: gainsboro;
+}
